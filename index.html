@@ -25,10 +25,8 @@
             font-size: 500%
         }
 
-        .Block{
-            display: flex;
-            align-items: center;
-            justify-content: left;
+        .TableImage{
+            padding-right: 5%;
             padding-bottom: 1%;
         }
         .MainText{
@@ -41,17 +39,19 @@
         <h1 id="Name">นาย ณชพล ชนะน้อย</h1>
     </nav>
     <div id="MainBody" style="padding-top: 12%;">
-        <div class="Block">
-            <img src="person.png" style="width: 100px; padding-right: 5%;">
-            <h2 class="MainText">ข้อมูลส่วนตัว</h2>
-        </div>
-        <div class="Block">
-            <img src="document.png" style="width: 100px; padding-right: 5%;">
-            <h2 class="MainText">โรคประจำคัว</h2>
-        </div>
-        <div class="Block">
-            <img src="medicine.png" style="width: 100px; padding-right: 5%;">
-            <h2 class="MainText">ประวัติการรับยา</h2>
-        </div>
+        <table>
+            <tr>
+                <td><img src="person.png" style="width: 100px;"></td>
+                <td class="TableImage"><h2 class="MainText">ข้อมูลส่วนตัว</h2></td>
+            </tr>
+            <tr>
+                <td><img src="document.png" style="width: 100px;"></td>
+                <td class="TableImage"><h2 class="MainText">โรคประจำคัว</h2></td>
+            </tr>
+            <tr>
+                <td><img src="medicine.png" style="width: 100px;"></td>
+                <td class="TableImage"><h2 class="MainText">ประวัติการรับยา</h2></td>
+            </tr>
+        </table>
     </div>
 </body>
