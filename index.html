@@ -15,7 +15,7 @@
             width: 100%;
             margin: 0;
             height: 10%;
-            border-radius: 0% 0% 25% 25%;
+            border-radius: 0% 0% 10% 10%;
         }
 
         #Name{
@@ -24,6 +24,15 @@
             padding-top: 0.7%;
             font-size: 500%
         }
+
+        .Block{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .MainText{
+            font-size: 400%
+        }
     </style>
 </head>
 <body>
@@ -31,6 +40,9 @@
         <h1 id="Name">นาย ณชพล ชนะน้อย</h1>
     </nav>
     <div id="MainBody">
-        <p>ข้อมูลส่วนตัว</p>
+        <div class="Block">
+            <img src="medical-record.png" style="width: 300px;">
+            <h2 class="MainText">ข้อมูลส่วนตัว</h2>
+        </div>
     </div>
 </body>
